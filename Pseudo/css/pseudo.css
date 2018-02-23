@@ -1,0 +1,52 @@
+div > div:first-child{
+    font-weight: bold;
+    color:blue;
+}
+
+div > div:nth-child(2n){
+    background-color:red;
+    color:white;
+}
+
+div > div:nth-child(3){
+    color:red;
+}
+
+div > div:last-child{
+    color:red;
+}
+
+body > div:last-child *{
+    font-weight:normal;
+    background-color:initial;
+    color:initial;
+}
+
+a{
+    background-color:white;
+}
+a:hover{
+    background-color:black;
+    color:white;
+}
+
+input:disabled{
+    background-color:blue;
+    color:white;
+}
+
+input:checked{
+    box-shadow: 1px 1px 10px black;
+}
+
+body > div:last-child > div > div:nth-last-child(2){
+    color:blue;
+}
+
+body > div:last-child > div > div:nth-child(3){
+    color:red;
+}
+
+body > div:last-child > div > div > div{
+    color:green;
+}
