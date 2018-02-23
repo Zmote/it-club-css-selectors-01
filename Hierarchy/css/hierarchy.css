@@ -1,0 +1,83 @@
+.firstClass{
+    text-decoration:line-through;
+    background-color:black;
+    color:white;
+}
+
+.firstClass + div > p{
+    color:skyblue;
+}
+
+.firstClass + div > p > span{
+    color:initial;
+}
+
+.firstClass + div > p > span > span{
+    border:1px solid black;
+}
+
+.firstClass + div + div > p{
+    color:skyblue;
+}
+
+#middle + p{
+    color:darkred;
+}
+#middle{
+    color:initial;
+    border:2px red solid;
+}
+#middle > span{
+    font-weight: bold;
+    background-color:red;
+    color:white;
+}
+
+#someDiv{
+    color:skyblue;
+}
+
+#someDiv > p{
+    color:skyblue;
+}
+
+#someDiv > span{
+    color:initial;
+}
+
+#someDiv > span + p{
+    color:darkred;
+}
+
+#someDiv > span + p > span{
+    font-size:2em;
+    background-color:black;
+    color:white;
+}
+
+#someDiv + div > ul ul{
+    font-size:2em;
+}
+
+#someDiv + div > ul ul > li > p{
+    color:orange;
+}
+
+#someDiv + div > ul ul ul > li.someL{
+    color:red;
+    font-style: italic;
+}
+#someDiv + div > ul ul ul > li.someL + li{
+    color:blue;
+}
+#someDiv + div > ul ul ul > li.someL + li + li{
+    color:orange;
+}
+
+#someDiv + div > ul > li.someL + li > span{
+    color:orange;
+}
+
+#last > .lastClass ~ p{
+    color:skyblue;
+}

@@ -15,6 +15,10 @@ div p span{
     text-indent: 4em;
 }
 
+span span{
+    text-indent:6em;
+}
+
 span{
     margin-top:1em;
     display:block;

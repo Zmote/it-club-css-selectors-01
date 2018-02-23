@@ -19,3 +19,7 @@ span{
     margin-top:1em;
     display:block;
 }
+
+div p span span{
+    text-indent: 6em;
+}
