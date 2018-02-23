@@ -2,3 +2,4 @@
 2) Definieren Sie mit Attributselektoren Regeln, die die entsprechenden Knoten (Elemente) wie im HTML angegeben stylen
 3) Definieren Sie mindestens 2 eigene Regeln mit Attributselektoren
 4) Sie dürfen das HTML nicht modifizieren!
+5) Sie dürfen nur Attributselektoren verwenden!
