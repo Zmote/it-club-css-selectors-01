@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attribute Selectors</title>
+    <link rel="stylesheet" href="css/indent.css"/>
+    <link rel="stylesheet" href="css/hierarchy.css"/>
+</head>
+<body>
+<div class="tagClass-otherClass-anotherClass">DIV CLASS TAGCLASS-OTHERCLASS-ANOTHERCLASS STRIKED THROUGH BLACK BACKGROUND WHITE TEXT</div>
+<div id="primary">
+    DIV ID PRIMARY
+    <p class="someClass1">
+        P CLASS SOMECLASS1 SKYBLUE
+        <span class="tagClass otherClass">SPAN CLASS TAGCLASS OTHERCLASS</span>
+    </p>
+    <p class="someClass2">P CLASS SOMECLASS2 BORDER 1PX BLACK</p>
+    <p class="someClass3">P CLASS SOMECLASS3 DARKRED</p>
+</div>
+<div id="secondary">
+    DIV ID SECONDARY
+    <p class="someClass1">P CLASS SOMECLASS1 SKYBLUE</p>
+    <p class="someClass2">
+        P CLASS SOMECLASS2 BORDER 2PX RED
+        <span class="tagClass otherClass">SPAN CLASS TAGCLASS OTHERCLASS</span>
+    </p>
+    <p class="someClass3">P CLASS SOMECLASS3 DARKRED</p>
+</div>
+<div id="tertiary">
+    DIV ID TERTIARY
+    <p class="someClass1">P CLASS SOMECLASS1 SKYBLUE</p>
+    <p class="someClass2">P CLASS SOMECLASS2</p>
+    <p class="someClass3">
+        P CLASS SOMECLASS3 DARKRED
+        <span class="tagClass otherClass">SPAN CLASS TAGCLASS OTHERCLASS BORDER FONT SIZE 2X WHITE</span>
+    </p>
+</div>
+<div>
+    DIV
+    <div class="tagClass-otherClass">DIV CLASS TAGCLASS-OTHERCLASS</div>
+    <ul>UL
+        <li>LI
+        <ul>
+            UL FONT SIZE 2X
+            <li>LI ORANGE AND BOLD</li>
+            <li>LI</li>
+            <li>LI
+            <ul>
+                UL FONT SIZE 4X
+                <li>LI RED AND ITALIC</li>
+                <li>LI BLUE</li>
+                <li>LI GREEN</li>
+            </ul></li>
+        </ul>
+        </li>
+        <li>LI</li>
+        <li>LI ORANGE</li>
+    </ul>
+</div>
+</body>
+</html>

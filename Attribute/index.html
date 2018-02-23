@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attribute Selectors</title>
+    <link rel="stylesheet" href="css/indent.css"/>
+    <link rel="stylesheet" href="css/attribute.css"/>
+</head>
+<body>
+<div class="tagClass-otherClass-anotherClass">DIV CLASS TAGCLASS-OTHERCLASS-ANOTHERCLASS BLUE</div>
+<div id="primary">
+    DIV ID PRIMARY
+    <p class="someClass1">
+        P CLASS SOMECLASS1
+        <span class="tagClass otherClass">SPAN CLASS TAGCLASS OTHERCLASS RED</span>
+    </p>
+    <p class="someClass2">P CLASS SOMECLASS2 GREEN</p>
+    <p class="someClass3">P CLASS SOMECLASS3</p>
+</div>
+<div id="secondary">
+    DIV ID SECONDARY
+    <p class="someClass1">P CLASS SOMECLASS1</p>
+    <p class="someClass2">
+        P CLASS SOMECLASS2 GREEN
+        <span class="tagClass otherClass">SPAN CLASS TAGCLASS OTHERCLASS</span>
+    </p>
+    <p class="someClass3">P CLASS SOMECLASS3</p>
+</div>
+<div id="tertiary">
+    DIV ID TERTIARY
+    <p class="someClass1">P CLASS SOMECLASS1</p>
+    <p class="someClass2">P CLASS SOMECLASS2 GREEN</p>
+    <p class="someClass3">
+        P CLASS SOMECLASS3
+        <span class="tagClass otherClass">SPAN CLASS TAGCLASS OTHERCLASS ORANGE</span>
+    </p>
+</div>
+<div>
+    DIV
+    <div class="tagClass-otherClass">DIV CLASS TAGCLASS-OTHERCLASS BACKGROUND-BLUE WHITE TEXT</div>
+</div>
+</body>
+</html>
