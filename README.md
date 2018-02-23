@@ -1,3 +1,4 @@
-#CSS Selectors - Child and Attribute Selectors
+# CSS Selectors - Child and Attribute Selectors
 
 Exercises for Child and Attribute Selectors. Solutions can be found in solution branch.
+Check Assignment.txt for Instructions.
