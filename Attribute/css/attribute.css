@@ -1,0 +1,31 @@
+[class*="bold"]{
+    font-weight: bold;
+}
+
+[class$="123"]{
+    color:green;
+}
+
+[class^="123"]{
+    color:red;
+}
+
+[class="bold"]{
+    color:blue;
+}
+
+[class|="boldek"]{
+    color:orange;
+}
+[class~="boldek"]{
+    background-color:blue;
+    color:white;
+}
+
+p[role]{
+    border:1px solid red;
+}
+
+span[role]{
+    font-size:2em;
+}
